@@ -1,33 +1,81 @@
-.App {
-  text-align: center;
-}
+.header-style{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.grid-style{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
-
-.App-link {
-  color: #61dafb;
+.img-style{
+    height: 250px;
 }
+.banner-style{
+    background-color: black;
+    opacity: 0.7;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.banner-style h1{
+    font-weight: bolder;
+    padding-top: 0.25em; 
+}
+.banner-style hr{
+    border-bottom: white double 0.5em;
+    width: 50%;
+    margin: auto;
+}
+.banner-style p{
+    font-size: 3em;
+    padding: 1em;
+}
+.reseaux-sociaux{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.contact-body{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.contact-grid{
+    margin: auto;
+    width: 80%;
+    background: white;
+    color: black;
+    text-align: center;
+    
+}
+.contact-grid h2{
+    font-family: 'Anton', sans-serif;
+}
+.contact-grid p {
+    padding-top: 1em;
+    font-family: 'Oxygen Mono', monospace;
+}
+.contact-grid hr{
+    border-top: 0.8em dotted black;
+    margin: auto;
+    width: 50%;
+}
+.contact-list{
+    padding-top: 1em;
+}
+.contact-list i{
+    padding-right: 1em;
+}
+.cv-style{
+    padding: 1em;
+    background: #27221F;
+    color : white;
 }
